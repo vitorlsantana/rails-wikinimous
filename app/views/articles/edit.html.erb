@@ -1,0 +1,30 @@
+<nav>
+  <div class="navbar">
+    <div>
+      <h2 class="navbar-header">
+        <%=  link_to 'Wikinimous', articles_path %>
+      </h2>
+    </div>
+    <div>
+      <h2>
+        <%= link_to 'New artice', new_path %>
+      </h2>
+    </div>
+  </div>
+</nav>
+
+<h1>Editing Aricle</h1>
+
+<%= render 'form' %>
+
+<p>
+  <%= link_to 'Back', articles_path %>
+</p>
+
+<p>
+  <%= link_to 'New artice', new_path %>
+</p>
+
+<p>
+  <%= link_to 'Show', article_path %>
+</p>

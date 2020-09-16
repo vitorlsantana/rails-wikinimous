@@ -1,0 +1,22 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul.list {
+  list-style-type: none;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;;
+}
